@@ -3,9 +3,11 @@ from typing import Dict, Any, Optional
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from datetime import datetime
+import requests
+from requests.exceptions import RequestException
 from .database import add_published_article, log_post_stats
 from .utils import escape_html, to_moscow_time
-from config import TELEGRAM_CHANNEL_ID, category_emoji
+from config import TELEGRAM_CHANNEL_ID
 
 logger = logging.getLogger(__name__)
 
@@ -14,14 +16,42 @@ def publish_to_telegram(bot: telebot.TeleBot, article: Dict[str, Any], channel_i
     try:
         message = format_message(article)
 
-        result = bot.send_message(
-            channel_id,
-            message,
-            parse_mode='HTML',
-            disable_web_page_preview=False,
-        )
-
-        logger.info(f"Статья успешно опубликована: {article['title']}")
+        if article.get('image_url'):
+            logger.info(f"Попытка отправки статьи с изображением: {article['image_url']}")
+            try:
+                response = requests.head(article['image_url'], timeout=5)
+                if response.status_code == 200:
+                    result = bot.send_photo(
+                        channel_id,
+                        photo=article['image_url'],
+                        caption=message,
+                        parse_mode='HTML',
+                    )
+                    logger.info(f"Статья успешно опубликована с изображением: {article['title']}")
+                else:
+                    logger.warning(f"Изображение недоступно (статус {response.status_code}): {article['image_url']}. Отправка без изображения.")
+                    result = bot.send_message(
+                        channel_id,
+                        message,
+                        parse_mode='HTML',
+                        disable_web_page_preview=True,
+                    )
+            except RequestException as e:
+                logger.warning(f"Ошибка при проверке изображения: {article['image_url']}. Ошибка: {e}")
+                result = bot.send_message(
+                    channel_id,
+                    message,
+                    parse_mode='HTML',
+                    disable_web_page_preview=True,
+                )
+        else:
+            logger.info(f"Отправка статьи без изображения: {article['title']}")
+            result = bot.send_message(
+                channel_id,
+                message,
+                parse_mode='HTML',
+                disable_web_page_preview=True,
+            )
 
         # Логируем статистику поста
         moscow_time = to_moscow_time(datetime.now())
@@ -32,7 +62,7 @@ def publish_to_telegram(bot: telebot.TeleBot, article: Dict[str, Any], channel_i
 
         return result.message_id
     except Exception as e:
-        logger.error(f"Ошибка при публикации статьи {article['title']}: {e}")
+        logger.error(f"Ошибка при публикации статьи {article['title']}: {e}", exc_info=True)
         return None
 
 
@@ -46,13 +76,8 @@ def format_message(article: Dict[str, Any]) -> str:
     Returns:
         str: Отформатированное сообщение.
     """
-    emoji_for_category: str = category_emoji.get(article['category'], "🧪")
-    category_tag = f"#{article['category'].upper()}"
-
-    message = f"{emoji_for_category} {category_tag}\n\n"
-    message += f"<b>{escape_html(article['title'])}</b>\n\n"
-    message += f"{escape_html(article['summary'])}\n\n"
-    message += f"<a href='{article['link']}'>Читать полностью</a>"
+    message = f"<b>{escape_html(article['title'])}</b>\n\n"
+    message += f"{escape_html(article['summary'])}"
 
     return message
 

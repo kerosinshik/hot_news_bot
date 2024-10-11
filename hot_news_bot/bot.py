@@ -4,6 +4,7 @@ import time
 import threading
 import sqlite3
 import random
+from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
 import logging
 from .rss_parser import fetch_articles
@@ -30,8 +31,9 @@ class NewsBot:
 
     def send_log(self, message):
         self.logger.info(message)
-        moscow_time = to_moscow_time(datetime.now()).strftime('%Y-%m-%d %H:%M:%S')
-        self.bot.send_message(self.admin_chat_id, f"LOG [{moscow_time}]: {message}")
+        moscow_time = to_moscow_time(datetime.now())
+        formatted_time = moscow_time.strftime('%Y-%m-%d %H:%M:%S')
+        self.bot.send_message(self.admin_chat_id, f"LOG [{formatted_time}]: {message}")
 
     def analyze_optimal_publishing_time(self):
         with get_db_connection() as conn:
@@ -192,6 +194,15 @@ class NewsBot:
             self.pause_timer = None
         self.send_log("Публикации возобновлены")
 
+    def get_moscow_time(self):
+        return datetime.now(ZoneInfo("Europe/Moscow"))
+
+    def send_log(self, message):
+        moscow_time = self.get_moscow_time()
+        formatted_time = moscow_time.strftime('%Y-%m-%d %H:%M:%S')
+        log_message = f"LOG [{formatted_time}]: {message}"
+        self.logger.info(log_message)
+        self.bot.send_message(self.admin_chat_id, log_message)
     # Здесь можно добавить дополнительные методы для обработки команд Telegram
 
 

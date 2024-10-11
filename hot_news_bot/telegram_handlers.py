@@ -5,7 +5,6 @@ from telebot.apihelper import ApiTelegramException
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
 from .database import get_post_stats, get_top_articles, get_last_publication_time, get_publications_in_last_hour
-from .events import generate_events_digest
 from .publisher import publish_digest
 from .article_processor import get_article_scores, process_articles
 from .rss_parser import fetch_articles
@@ -23,7 +22,7 @@ def setup_bot_commands(bot: TeleBot):
         BotCommand("status", "Проверить статус бота"),
         BotCommand("stats", "Показать статистику публикаций"),
         BotCommand("top", "Показать топ статей"),
-        BotCommand("events", "Показать предстоящие события"),
+        BotCommand("hot", "Показать самые горячие новости"),  # Заменили "events" на "hot"
         BotCommand("pause", "Приостановить публикации"),
         BotCommand("resume", "Возобновить публикации"),
         BotCommand("scores", "Показать таблицу оценок статей"),
@@ -40,7 +39,7 @@ def send_initial_message(bot: TeleBot, admin_chat_id: str):
         "/status - Проверить статус бота\n"
         "/stats - Показать статистику публикаций\n"
         "/top - Показать топ статей\n"
-        "/events - Показать предстоящие события\n"
+        "/hot - Показать самые горячие новости\n"  # Заменили "events" на "hot"
         "/pause - Приостановить публикации\n"
         "/resume - Возобновить публикации\n"
         "/scores - Показать таблицу оценок статей\n"
@@ -132,13 +131,6 @@ def register_handlers(bot: TeleBot):
             response += f"Заголовок: {article[0]}\nДата: {article[1]}\nПросмотры: {article[2]}, Репосты: {article[3]}, Реакции: {article[4]}\n\n"
         bot.reply_to(message, response)
 
-    @bot.message_handler(commands=['events'])
-    def send_events(message: Message):
-        if str(message.chat.id) != ADMIN_CHAT_ID:
-            bot.reply_to(message, "У вас нет прав для выполнения этой команды.")
-            return
-        events_digest = generate_events_digest()
-        bot.reply_to(message, events_digest, parse_mode='HTML')
 
     @bot.message_handler(commands=['pause'])
     def pause_publications(message: Message):
@@ -185,15 +177,34 @@ def register_handlers(bot: TeleBot):
 
         table = "🏆 Таблица оценок статей:\n\n"
         table += "<pre>"
-        table += f"{'Заголовок':<50} | {'Общ.':<5} | {'Настр.':<6} | {'Соб.':<4} | {'Врем.':<5} | {'Ист.':<4} | {'Кат.':<4}\n"
-        table += "-" * 90 + "\n"
+        table += f"{'Заголовок':<50} | {'Общ.':<5} | {'Настр.':<6} | {'Врем.':<5} | {'Ист.':<4} | {'Кат.':<4}\n"
+        table += "-" * 85 + "\n"
 
         for article in scored_articles[:10]:  # Показываем топ-10 статей
-            table += f"{article['title']:<50} | {article['total_score']:<5.2f} | {article['sentiment']:<6.2f} | {article['event_relevance']:<4d} | {article['time_relevance']:<5d} | {article['source_priority']:<4d} | {article['category_weight']:<4.2f}\n"
+            table += f"{article['title']:<50} | {article['total_score']:<5.2f} | {article['sentiment']:<6.2f} | {article['time_relevance']:<5d} | {article['source_priority']:<4d} | {article['category_weight']:<4.2f}\n"
 
         table += "</pre>"
 
         bot.reply_to(message, table, parse_mode='HTML')
+
+    @bot.message_handler(commands=['hot'])
+    def send_hot_news(message: Message):
+        if str(message.chat.id) != ADMIN_CHAT_ID:
+            bot.reply_to(message, "У вас нет прав для выполнения этой команды.")
+            return
+
+        # Получаем топ-5 самых популярных статей за последнюю неделю
+        hot_articles = get_top_articles(5)  # Эта функция уже существует в database.py
+
+        response = "🔥 Самые горячие новости за последнее время:\n\n"
+        for article in hot_articles:
+            title, pub_date, views, forwards, reactions = article
+            score = views + forwards * 5 + reactions * 2  # Простая формула для расчета "горячести"
+            response += f"🔥 {title}\n"
+            response += f"📅 {pub_date}\n"
+            response += f"📊 Рейтинг: {score}\n\n"
+
+        bot.reply_to(message, response)
 
     @bot.message_handler(commands=['optimal_time'])
     def send_optimal_time(message: Message):
@@ -221,10 +232,6 @@ def register_handlers(bot: TeleBot):
 
     logger.info("Регистрация обработчиков команд завершена")
 
-def create_digest_and_publish(bot: TeleBot):
-    """Создает и публикует дайджест событий."""
-    digest = generate_events_digest()
-    publish_digest(bot, digest)
 
 
 if __name__ == "__main__":

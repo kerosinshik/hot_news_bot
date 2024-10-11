@@ -49,24 +49,20 @@ def fetch_feed(feed_url: str) -> List[Dict[str, Any]]:
     articles = []
     for entry in feed.entries[:ARTICLES_PER_FEED]:
         article = parse_entry(entry, feed_url)
-        if article and not is_article_published(article['id']):
-            articles.append(article)
+        if article:
+            if not is_article_published(article['id']):
+                articles.append(article)
+                logger.info(f"Добавлена новая статья: {article['title']} (URL изображения: {article.get('image_url')})")
+            else:
+                logger.info(f"Статья уже опубликована: {article['title']}")
+        else:
+            logger.warning(f"Не удалось обработать статью из {feed_url}")
 
     logger.info(f"Получено {len(articles)} новых статей из {feed_url}")
     return articles
 
 
 def parse_entry(entry: feedparser.FeedParserDict, feed_url: str) -> Dict[str, Any]:
-    """
-    Парсит отдельную запись из RSS-фида.
-
-    Args:
-        entry (feedparser.FeedParserDict): Запись из RSS-фида.
-        feed_url (str): URL RSS-фида.
-
-    Returns:
-        Dict[str, Any]: Словарь, представляющий статью, или None, если статья не валидна.
-    """
     try:
         article_id = entry.get('id', entry.link)
         title = clean_html(entry.title)
@@ -83,14 +79,37 @@ def parse_entry(entry: feedparser.FeedParserDict, feed_url: str) -> Dict[str, An
         if datetime.now() - pub_date > timedelta(days=7):
             return None
 
+        # Извлекаем URL изображения
+        image_url = None
+        if 'media_content' in entry:
+            media_contents = entry.get('media_content', [])
+            for media in media_contents:
+                if media.get('type', '').startswith('image/'):
+                    image_url = media.get('url')
+                    break
+        if not image_url and 'media_thumbnail' in entry:
+            thumbnails = entry.get('media_thumbnail', [])
+            if thumbnails:
+                image_url = thumbnails[0].get('url')
+        if not image_url and 'links' in entry:
+            for link in entry.links:
+                if link.get('type', '').startswith('image/'):
+                    image_url = link.get('href')
+                    break
+
+        logger.info(f"Обработка статьи: {title}")
+        logger.info(f"Извлеченный URL изображения: {image_url}")
+
         return {
             'id': article_id,
             'title': title,
             'summary': summary,
             'link': entry.link,
             'pub_date': pub_date,
-            'source': feed_url
+            'source': feed_url,
+            'image_url': image_url
         }
+
     except Exception as e:
         logger.error(f"Ошибка при парсинге статьи из {feed_url}: {e}")
         return None

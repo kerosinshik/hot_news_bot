@@ -86,27 +86,6 @@ def get_relevant_events(article_content: str) -> List[Dict[str, Any]]:
     return relevant_events
 
 
-def generate_events_digest() -> str:
-    """
-    Генерирует дайджест предстоящих событий.
-    """
-    upcoming_events = fetch_upcoming_events()
-
-    if not upcoming_events:
-        return "На ближайшее время нет запланированных событий в мире знаменитостей."
-
-    digest = "🎬 Предстоящие премьеры и события в мире знаменитостей:\n\n"
-
-    for i, event in enumerate(upcoming_events[:10], 1):  # Ограничиваем 10 событиями
-        digest += f"{i}. <b>{event['name']}</b>\n"
-        digest += f"   📆 {event['date'].strftime('%d.%m.%Y')}\n"
-        digest += f"   🌟 В ролях: {', '.join(event['keywords'][:-3])}\n\n"
-
-    digest += "\nСледите за обновлениями и не пропустите громкие премьеры! 🍿🎥"
-
-    return digest
-
-
 if __name__ == "__main__":
     # Тестовый код для проверки работы модуля
     logging.basicConfig(level=logging.INFO)
@@ -118,9 +97,5 @@ if __name__ == "__main__":
     today_events = get_today_events()
     for event in today_events:
         print(f"- {event[1]} ({event[2]})")
-
-    print("\nГенерация дайджеста событий:")
-    digest = generate_events_digest()
-    print(digest)
 
     logger.info("Тестирование events.py завершено")

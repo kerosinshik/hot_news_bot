@@ -84,7 +84,8 @@ def process_single_article(article: Dict[str, Any]) -> Dict[str, Any]:
         'source': article['source'],
         'category': category,
         'interest_score': interest_score,
-        'is_breaking': is_breaking
+        'is_breaking': is_breaking,
+        'image_url': article.get('image_url')  # Сохраняем URL изображения
     }
 
 
@@ -328,10 +329,6 @@ def get_article_scores(articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         content = article['title'] + " " + article['summary']
         sentiment_score = sia.polarity_scores(content)['compound']
 
-        today_events = get_today_events()
-        event_relevance = sum(
-            1 for event in today_events if any(keyword.lower() in content.lower() for keyword in event[3].split(',')))
-
         time_relevance = 1 if (datetime.now() - article['pub_date']).days == 0 else 0
 
         source_priority = 1 if any(source in article['source'] for source in PRIORITY_SOURCES) else 0
@@ -341,7 +338,6 @@ def get_article_scores(articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         scored_articles.append({
             'title': article['title'][:50] + '...' if len(article['title']) > 50 else article['title'],
             'sentiment': sentiment_score,
-            'event_relevance': event_relevance,
             'time_relevance': time_relevance,
             'source_priority': source_priority,
             'category_weight': category_weight,
@@ -349,7 +345,6 @@ def get_article_scores(articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         })
 
     return sorted(scored_articles, key=lambda x: x['total_score'], reverse=True)
-
 
 if __name__ == "__main__":
     # Тестовый код для проверки работы модуля
