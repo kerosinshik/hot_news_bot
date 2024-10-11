@@ -1,0 +1,1610 @@
+2024-10-09 23:36:45,236 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-09 23:36:45,236 - hot_news_bot.bot - INFO - Таблица post_stats пуста. Используем значения по умолчанию.
+2024-10-09 23:36:45,237 - hot_news_bot.bot - INFO - Бот запускается...
+2024-10-09 23:36:46,962 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-09 23:36:46,968 - hot_news_bot.database - INFO - Таблица событий инициализирована
+2024-10-09 23:36:47,910 - hot_news_bot.bot - INFO - Бот успешно запущен и готов к работе!
+2024-10-09 23:37:48,320 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-09 23:38:48,804 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-09 23:39:49,212 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-09 23:40:49,645 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-09 23:41:50,114 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-09 23:42:50,521 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-09 23:42:50,977 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-09 23:42:52,680 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-09 23:42:52,680 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-09 23:42:57,184 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.starhit.ru/rss/
+2024-10-09 23:42:57,184 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-09 23:43:00,034 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-09 23:43:00,034 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-09 23:43:00,034 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-09 23:43:02,837 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-09 23:43:02,837 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-09 23:43:06,746 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-09 23:43:06,746 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-09 23:43:06,746 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-09 23:43:10,794 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-09 23:43:10,794 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-09 23:43:19,039 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-09 23:43:19,040 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-09 23:43:19,041 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-09 23:43:21,775 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-09 23:43:21,775 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-09 23:43:21,775 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-09 23:43:26,039 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-09 23:43:26,039 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-09 23:43:28,504 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-09 23:43:28,504 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-09 23:43:28,505 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-09 23:43:33,977 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://peopletalk.ru/feed/
+2024-10-09 23:43:33,977 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-09 23:43:40,867 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-09 23:43:40,867 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-09 23:43:40,867 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-09 23:43:42,021 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-09 23:43:42,021 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-09 23:43:42,021 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-09 23:43:45,529 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-09 23:43:45,529 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-09 23:43:48,002 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-09 23:43:48,002 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-09 23:43:48,002 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-09 23:43:51,774 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-09 23:43:51,774 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-09 23:43:51,774 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-09 23:43:57,674 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-09 23:43:57,674 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-09 23:43:57,674 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-09 23:44:00,307 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-09 23:44:00,307 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-09 23:44:00,307 - hot_news_bot.rss_parser - INFO - Всего получено 50 статей
+2024-10-09 23:45:23,133 - hot_news_bot.article_processor - INFO - Обработано 50 статей
+2024-10-09 23:45:23,133 - hot_news_bot.bot - INFO - Отобрано 11 интересных статей
+2024-10-09 23:45:23,899 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Алена Яковлева встала на сторону Муцениеце в конфликте с Прилучным
+2024-10-09 23:45:23,906 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1164, views=0, forwards=0, reactions=0
+2024-10-09 23:45:23,912 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Алена Яковлева встала на сторону Муцениеце в конфликте с Прилучным
+2024-10-09 23:45:23,919 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Алена Яковлева встала на сторону Муцениеце в конфликте с Прилучным
+2024-10-09 23:45:23,920 - hot_news_bot.bot - INFO - Статья опубликована: Алена Яковлева встала на сторону Муцениеце в конфликте с Прилучным
+2024-10-09 23:45:24,285 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-09 23:47:10,068 - hot_news_bot.bot - INFO - Получен сигнал завершения. Останавливаем бота...
+2024-10-09 23:47:11,275 - hot_news_bot.bot - INFO - Останавливаем бота...
+2024-10-09 23:47:11,661 - hot_news_bot.bot - INFO - Бот остановлен.
+2024-10-09 23:47:12,028 - hot_news_bot.bot - INFO - Останавливаем бота...
+2024-10-09 23:47:12,452 - hot_news_bot.bot - INFO - Бот остановлен.
+2024-10-09 23:47:18,779 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-09 23:47:18,779 - hot_news_bot.bot - INFO - Бот запускается...
+2024-10-09 23:47:20,319 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-09 23:47:20,325 - hot_news_bot.database - INFO - Таблица событий инициализирована
+2024-10-09 23:47:21,348 - hot_news_bot.bot - INFO - Бот успешно запущен и готов к работе!
+2024-10-09 23:48:21,767 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-09 23:48:22,182 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-09 23:48:24,641 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-09 23:48:24,641 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-09 23:48:29,893 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.starhit.ru/rss/
+2024-10-09 23:48:29,893 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-09 23:48:32,646 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-09 23:48:32,646 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-09 23:48:32,646 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-09 23:48:35,546 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-09 23:48:35,546 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-09 23:48:39,336 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-09 23:48:39,336 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-09 23:48:39,336 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-09 23:48:44,067 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-09 23:48:44,067 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-09 23:48:49,082 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-09 23:48:49,082 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-09 23:48:49,082 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-09 23:48:51,715 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-09 23:48:51,715 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-09 23:48:51,715 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-09 23:48:56,901 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-09 23:48:56,901 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-09 23:48:59,213 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-09 23:48:59,213 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-09 23:48:59,213 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-09 23:49:02,780 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://peopletalk.ru/feed/
+2024-10-09 23:49:02,780 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-09 23:49:16,287 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-09 23:49:16,289 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-09 23:49:16,289 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-09 23:49:16,740 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-09 23:49:16,740 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-09 23:49:16,740 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-09 23:49:24,911 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-09 23:49:24,912 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-09 23:49:27,019 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-09 23:49:27,019 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-09 23:49:27,019 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-09 23:49:31,753 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-09 23:49:31,754 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-09 23:49:31,754 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-09 23:49:37,048 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-09 23:49:37,048 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-09 23:49:37,048 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-09 23:49:38,886 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-09 23:49:38,886 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-09 23:49:38,886 - hot_news_bot.rss_parser - INFO - Всего получено 49 статей
+2024-10-09 23:51:06,496 - hot_news_bot.article_processor - INFO - Обработано 49 статей
+2024-10-09 23:51:06,496 - hot_news_bot.bot - INFO - Отобрано 15 интересных статей
+2024-10-09 23:51:07,421 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Подсаживал знакомых: Стас Пьеха рассказал, зачем открыл наркологическую клинику
+2024-10-09 23:51:07,428 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1165, views=0, forwards=0, reactions=0
+2024-10-09 23:51:07,433 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Подсаживал знакомых: Стас Пьеха рассказал, зачем открыл наркологическую клинику
+2024-10-09 23:51:07,439 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Подсаживал знакомых: Стас Пьеха рассказал, зачем открыл наркологическую клинику
+2024-10-09 23:51:07,439 - hot_news_bot.bot - INFO - Статья опубликована: Подсаживал знакомых: Стас Пьеха рассказал, зачем открыл наркологическую клинику
+2024-10-09 23:51:08,221 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-09 23:54:07,887 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Продюсер не исключил, что пропажа дочери Успенской была пиаром
+2024-10-09 23:54:07,892 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1166, views=0, forwards=0, reactions=0
+2024-10-09 23:54:07,892 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Продюсер не исключил, что пропажа дочери Успенской была пиаром
+2024-10-09 23:54:07,907 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Продюсер не исключил, что пропажа дочери Успенской была пиаром
+2024-10-09 23:54:07,907 - hot_news_bot.bot - INFO - Статья опубликована: Продюсер не исключил, что пропажа дочери Успенской была пиаром
+2024-10-09 23:54:08,878 - hot_news_bot.publisher - INFO - Статья успешно опубликована: «Я похоронил наши отношения»: Григорий Лепс рассказал об изменах и своем предательстве
+2024-10-09 23:54:08,887 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1167, views=0, forwards=0, reactions=0
+2024-10-09 23:54:08,893 - hot_news_bot.database - INFO - Статья добавлена в базу данных: «Я похоронил наши отношения»: Григорий Лепс рассказал об изменах и своем предательстве
+2024-10-09 23:54:08,893 - hot_news_bot.database - INFO - Статья добавлена в базу данных: «Я похоронил наши отношения»: Григорий Лепс рассказал об изменах и своем предательстве
+2024-10-09 23:54:08,893 - hot_news_bot.bot - INFO - Статья опубликована: «Я похоронил наши отношения»: Григорий Лепс рассказал об изменах и своем предательстве
+2024-10-09 23:54:10,158 - hot_news_bot.bot - INFO - Ожидание 178 секунд до следующей публикации...
+2024-10-09 23:57:09,729 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Режиссер Карен Шахназаров заявил, что не считает Аллу Пугачеву предателем
+2024-10-09 23:57:09,738 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1168, views=0, forwards=0, reactions=0
+2024-10-09 23:57:09,741 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Режиссер Карен Шахназаров заявил, что не считает Аллу Пугачеву предателем
+2024-10-09 23:57:09,741 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Режиссер Карен Шахназаров заявил, что не считает Аллу Пугачеву предателем
+2024-10-09 23:57:09,741 - hot_news_bot.bot - INFO - Статья опубликована: Режиссер Карен Шахназаров заявил, что не считает Аллу Пугачеву предателем
+2024-10-09 23:57:10,676 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Марина Африкантова отрицает связь с женатым: «Прошу, чтобы мужчины показали мне штамп в паспорте»
+2024-10-09 23:57:10,692 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1169, views=0, forwards=0, reactions=0
+2024-10-09 23:57:10,701 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Марина Африкантова отрицает связь с женатым: «Прошу, чтобы мужчины показали мне штамп в паспорте»
+2024-10-09 23:57:10,706 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Марина Африкантова отрицает связь с женатым: «Прошу, чтобы мужчины показали мне штамп в паспорте»
+2024-10-09 23:57:10,706 - hot_news_bot.bot - INFO - Статья опубликована: Марина Африкантова отрицает связь с женатым: «Прошу, чтобы мужчины показали мне штамп в паспорте»
+2024-10-09 23:57:11,496 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-10 00:00:27,964 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Лопес опустошена из-за развода с Аффлеком: «Ощущение одиночества, неизвестности, страха. Чувствую грусть и отчаяние»
+2024-10-10 00:00:27,968 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1170, views=0, forwards=0, reactions=0
+2024-10-10 00:00:27,980 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Лопес опустошена из-за развода с Аффлеком: «Ощущение одиночества, неизвестности, страха. Чувствую грусть и отчаяние»
+2024-10-10 00:00:27,996 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Лопес опустошена из-за развода с Аффлеком: «Ощущение одиночества, неизвестности, страха. Чувствую грусть и отчаяние»
+2024-10-10 00:00:27,996 - hot_news_bot.bot - INFO - Статья опубликована: Лопес опустошена из-за развода с Аффлеком: «Ощущение одиночества, неизвестности, страха. Чувствую грусть и отчаяние»
+2024-10-10 00:00:33,817 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Пока Агата Муцениеце пытается наладить контакт с сыном, Зепюр Брутян веселится с ее детьми
+2024-10-10 00:00:33,821 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1171, views=0, forwards=0, reactions=0
+2024-10-10 00:00:33,833 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Пока Агата Муцениеце пытается наладить контакт с сыном, Зепюр Брутян веселится с ее детьми
+2024-10-10 00:00:33,833 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Пока Агата Муцениеце пытается наладить контакт с сыном, Зепюр Брутян веселится с ее детьми
+2024-10-10 00:00:33,833 - hot_news_bot.bot - INFO - Статья опубликована: Пока Агата Муцениеце пытается наладить контакт с сыном, Зепюр Брутян веселится с ее детьми
+2024-10-10 00:00:35,212 - hot_news_bot.bot - INFO - Ожидание 174 секунд до следующей публикации...
+2024-10-10 00:03:30,090 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Будто обрела новое лицо: потерявшая нос Алиса Аршавина появилась на людях после десятой операции
+2024-10-10 00:03:30,102 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1172, views=0, forwards=0, reactions=0
+2024-10-10 00:03:30,106 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Будто обрела новое лицо: потерявшая нос Алиса Аршавина появилась на людях после десятой операции
+2024-10-10 00:03:30,106 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Будто обрела новое лицо: потерявшая нос Алиса Аршавина появилась на людях после десятой операции
+2024-10-10 00:03:30,106 - hot_news_bot.bot - INFO - Статья опубликована: Будто обрела новое лицо: потерявшая нос Алиса Аршавина появилась на людях после десятой операции
+2024-10-10 00:03:30,319 - hot_news_bot.bot - INFO - Ожидание 5 секунд до следующей публикации...
+2024-10-10 00:03:35,645 - hot_news_bot.publisher - INFO - Статья успешно опубликована: "Я просто какой-то странный парень". Марк Эйдельштейн рассказал о волнении на съёмках в "Аноре", постельных сценах и планах на карьеру за границей
+2024-10-10 00:03:35,651 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1173, views=0, forwards=0, reactions=0
+2024-10-10 00:03:35,662 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Я просто какой-то странный парень". Марк Эйдельштейн рассказал о волнении на съёмках в "Аноре", постельных сценах и планах на карьеру за границей
+2024-10-10 00:03:35,677 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Я просто какой-то странный парень". Марк Эйдельштейн рассказал о волнении на съёмках в "Аноре", постельных сценах и планах на карьеру за границей
+2024-10-10 00:03:35,677 - hot_news_bot.bot - INFO - Статья опубликована: "Я просто какой-то странный парень". Марк Эйдельштейн рассказал о волнении на съёмках в "Аноре", постельных сценах и планах на карьеру за границей
+2024-10-10 00:03:35,854 - hot_news_bot.bot - INFO - Ожидание 174 секунд до следующей публикации...
+2024-10-10 00:06:30,693 - hot_news_bot.publisher - INFO - Статья успешно опубликована: "Наконец-то она сдалась". Брэд Питт считает, что выиграет суд против Анджелины Джоли
+2024-10-10 00:06:30,703 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1174, views=0, forwards=0, reactions=0
+2024-10-10 00:06:30,714 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Наконец-то она сдалась". Брэд Питт считает, что выиграет суд против Анджелины Джоли
+2024-10-10 00:06:30,725 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Наконец-то она сдалась". Брэд Питт считает, что выиграет суд против Анджелины Джоли
+2024-10-10 00:06:30,725 - hot_news_bot.bot - INFO - Статья опубликована: "Наконец-то она сдалась". Брэд Питт считает, что выиграет суд против Анджелины Джоли
+2024-10-10 00:06:30,916 - hot_news_bot.bot - INFO - Ожидание 5 секунд до следующей публикации...
+2024-10-10 00:06:36,254 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Бейонсе, Памела Андерсон, Билли Айлиш, Брук Шилдс с дочерью на премии Glamour
+2024-10-10 00:06:36,277 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1175, views=0, forwards=0, reactions=0
+2024-10-10 00:06:36,285 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Бейонсе, Памела Андерсон, Билли Айлиш, Брук Шилдс с дочерью на премии Glamour
+2024-10-10 00:06:36,285 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Бейонсе, Памела Андерсон, Билли Айлиш, Брук Шилдс с дочерью на премии Glamour
+2024-10-10 00:06:36,285 - hot_news_bot.bot - INFO - Статья опубликована: Бейонсе, Памела Андерсон, Билли Айлиш, Брук Шилдс с дочерью на премии Glamour
+2024-10-10 00:06:36,514 - hot_news_bot.bot - INFO - Ожидание 174 секунд до следующей публикации...
+2024-10-10 00:09:31,614 - hot_news_bot.publisher - INFO - Статья успешно опубликована: "Он до сих пор её любит, просто они слишком разные". Инсайдеры утверждают, что Фёдор Бондарчук "хочет вернуть" Паулину Андрееву, которая ушла от него полгода назад
+2024-10-10 00:09:31,628 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1176, views=0, forwards=0, reactions=0
+2024-10-10 00:09:31,636 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Он до сих пор её любит, просто они слишком разные". Инсайдеры утверждают, что Фёдор Бондарчук "хочет вернуть" Паулину Андрееву, которая ушла от него полгода назад
+2024-10-10 00:09:31,636 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Он до сих пор её любит, просто они слишком разные". Инсайдеры утверждают, что Фёдор Бондарчук "хочет вернуть" Паулину Андрееву, которая ушла от него полгода назад
+2024-10-10 00:09:31,636 - hot_news_bot.bot - INFO - Статья опубликована: "Он до сих пор её любит, просто они слишком разные". Инсайдеры утверждают, что Фёдор Бондарчук "хочет вернуть" Паулину Андрееву, которая ушла от него полгода назад
+2024-10-10 00:09:31,815 - hot_news_bot.bot - INFO - Ожидание 5 секунд до следующей публикации...
+2024-10-10 00:09:36,849 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Елена Блиновская пожаловалась в суд на кражу ее марафонов
+2024-10-10 00:09:36,849 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1177, views=0, forwards=0, reactions=0
+2024-10-10 00:09:36,859 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Елена Блиновская пожаловалась в суд на кражу ее марафонов
+2024-10-10 00:09:36,859 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Елена Блиновская пожаловалась в суд на кражу ее марафонов
+2024-10-10 00:09:36,859 - hot_news_bot.bot - INFO - Статья опубликована: Елена Блиновская пожаловалась в суд на кражу ее марафонов
+2024-10-10 00:09:37,037 - hot_news_bot.bot - INFO - Ожидание 175 секунд до следующей публикации...
+2024-10-10 00:12:32,998 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Дженнифер Лопес намекнула на изменения в личной жизни на фоне развода с Беном Аффлеком
+2024-10-10 00:12:33,012 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1178, views=0, forwards=0, reactions=0
+2024-10-10 00:12:33,022 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Дженнифер Лопес намекнула на изменения в личной жизни на фоне развода с Беном Аффлеком
+2024-10-10 00:12:33,026 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Дженнифер Лопес намекнула на изменения в личной жизни на фоне развода с Беном Аффлеком
+2024-10-10 00:12:33,026 - hot_news_bot.bot - INFO - Статья опубликована: Дженнифер Лопес намекнула на изменения в личной жизни на фоне развода с Беном Аффлеком
+2024-10-10 00:12:33,211 - hot_news_bot.bot - INFO - Ожидание 4 секунд до следующей публикации...
+2024-10-10 00:12:37,410 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Случайный свидетель мог остановить двойное убийство сестер в Тольятти
+2024-10-10 00:12:37,414 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1179, views=0, forwards=0, reactions=0
+2024-10-10 00:12:37,423 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Случайный свидетель мог остановить двойное убийство сестер в Тольятти
+2024-10-10 00:12:37,429 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Случайный свидетель мог остановить двойное убийство сестер в Тольятти
+2024-10-10 00:12:37,429 - hot_news_bot.bot - INFO - Статья опубликована: Случайный свидетель мог остановить двойное убийство сестер в Тольятти
+2024-10-10 00:12:37,576 - hot_news_bot.bot - INFO - Цикл обработки завершен. Опубликовано 15 статей.
+2024-10-10 00:12:38,766 - hot_news_bot.bot - INFO - Обновлено оптимальное время публикации: [23, 0]
+2024-10-10 00:13:38,103 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:13:38,640 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:13:41,173 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:13:41,173 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:13:45,504 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:13:45,504 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:13:46,420 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:13:46,420 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:13:46,420 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:13:55,261 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:13:55,261 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:14:00,015 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:14:00,015 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:14:00,015 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:14:01,962 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:14:01,962 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:14:02,886 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:3:0: XML or text declaration not at start of entity
+2024-10-10 00:14:02,886 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:14:02,886 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:14:04,127 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:14:04,127 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:14:04,127 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:14:06,928 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:14:06,928 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:14:07,940 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:14:07,940 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:14:07,940 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:14:17,553 - hot_news_bot.rss_parser - ERROR - Ошибка при получении статей из https://peopletalk.ru/feed/: IncompleteRead(471211 bytes read)
+2024-10-10 00:14:17,553 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:14:36,729 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:14:36,729 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:14:36,729 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:14:38,192 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:14:38,192 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:14:38,192 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:14:44,539 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:14:44,539 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:14:46,295 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:14:46,295 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:14:46,295 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:14:50,068 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:14:50,068 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:14:50,068 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:14:55,374 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:14:55,374 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:14:55,374 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:14:58,171 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:14:58,171 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:14:58,171 - hot_news_bot.rss_parser - INFO - Всего получено 26 статей
+2024-10-10 00:15:43,512 - hot_news_bot.article_processor - INFO - Обработано 26 статей
+2024-10-10 00:15:43,512 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:15:45,044 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 31 минут
+2024-10-10 00:16:45,828 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:16:46,272 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:16:48,057 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:16:48,057 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:16:52,284 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:16:52,284 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:16:55,135 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:16:55,135 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:16:55,135 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:16:57,890 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:16:57,890 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:17:03,400 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:17:03,400 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:17:03,400 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:17:07,919 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:17:07,919 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:17:14,617 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:17:14,617 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:17:14,617 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:17:17,501 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:17:17,501 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:17:17,501 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:17:21,804 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:17:21,804 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:17:24,161 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:17:24,161 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:17:24,161 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:17:31,691 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:17:31,691 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:17:38,456 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:17:38,456 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:17:38,456 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:17:38,880 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:17:38,880 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:17:38,880 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:17:45,282 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:17:45,282 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:17:47,108 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:17:47,108 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:17:47,108 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:17:50,828 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:17:50,828 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:17:50,828 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:17:54,385 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:17:54,385 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:17:54,385 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:17:55,728 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:17:55,728 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:17:55,728 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-10 00:18:55,510 - hot_news_bot.article_processor - INFO - Обработано 34 статей
+2024-10-10 00:18:55,510 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:18:55,999 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 61 минут
+2024-10-10 00:19:56,441 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:19:56,824 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:19:58,267 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:19:58,267 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:20:01,204 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:20:01,204 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:20:04,151 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:20:04,151 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:20:04,151 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:20:05,803 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:20:05,803 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:20:12,509 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:20:12,509 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:20:12,509 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:20:17,068 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:20:17,068 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:20:22,295 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:20:22,295 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:20:22,295 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:20:24,362 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:20:24,362 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:20:24,362 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:20:27,559 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:20:27,559 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:20:29,914 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:20:29,914 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:20:29,914 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:20:34,459 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:20:34,459 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:20:41,516 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:20:41,516 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:20:41,516 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:20:41,930 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:20:41,930 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:20:41,930 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:20:45,888 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:20:45,888 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:20:47,245 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:20:47,245 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:20:47,245 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:20:50,530 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:20:50,530 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:20:50,530 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:20:55,224 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:20:55,224 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:20:55,224 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:20:56,903 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:20:56,903 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:20:56,903 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-10 00:21:53,758 - hot_news_bot.article_processor - INFO - Обработано 34 статей
+2024-10-10 00:21:53,758 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:21:54,204 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 91 минут
+2024-10-10 00:22:54,632 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:22:56,178 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:22:58,102 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:22:58,102 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:23:03,857 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:23:03,857 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:23:06,482 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:23:06,482 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:23:06,482 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:23:08,161 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:23:08,161 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:23:12,259 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:23:12,259 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:23:12,259 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:23:16,203 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:23:16,203 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:23:23,275 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:23:23,275 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:23:23,275 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:23:25,916 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:23:25,925 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:23:25,925 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:23:30,459 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:23:30,459 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:23:32,288 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:23:32,288 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:23:32,288 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:23:39,512 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:23:39,512 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:23:45,780 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:23:45,780 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:23:45,780 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:23:46,191 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:23:46,191 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:23:46,200 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:23:50,568 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:23:50,568 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:23:52,603 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:23:52,603 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:23:52,603 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:23:55,784 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:23:55,784 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:23:55,784 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:23:59,418 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:23:59,418 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:23:59,418 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:24:00,849 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:24:00,849 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:24:00,849 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-10 00:24:56,909 - hot_news_bot.article_processor - INFO - Обработано 34 статей
+2024-10-10 00:24:56,909 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:24:57,328 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 121 минут
+2024-10-10 00:25:57,752 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:25:58,121 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:25:59,600 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:25:59,600 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:26:02,855 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:26:02,855 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:26:05,343 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:26:05,343 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:26:05,343 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:26:07,093 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:26:07,093 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:26:13,020 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:26:13,020 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:26:13,020 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:26:16,898 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:26:16,898 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:26:22,569 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:26:22,569 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:26:22,569 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:26:24,712 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:26:24,712 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:26:24,712 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:26:28,559 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:26:28,559 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:26:30,513 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:26:30,513 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:26:30,513 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:26:36,580 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:26:36,580 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:26:43,474 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:26:43,474 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:26:43,474 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:26:43,886 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:26:43,886 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:26:43,886 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:26:48,166 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:26:48,166 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:26:49,769 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:26:49,769 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:26:49,769 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:26:53,318 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:26:53,319 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:26:53,319 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:26:58,047 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:26:58,047 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:26:58,047 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:26:59,654 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:26:59,654 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:26:59,654 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-10 00:27:54,406 - hot_news_bot.article_processor - INFO - Обработано 34 статей
+2024-10-10 00:27:54,406 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:27:54,803 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 151 минут
+2024-10-10 00:28:55,210 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:28:55,610 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:28:57,624 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:28:57,626 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:29:02,019 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:29:02,019 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:29:04,519 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:29:04,519 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:29:04,519 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:29:06,192 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:29:06,192 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:29:10,176 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:29:10,176 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:29:10,176 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:29:14,337 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:29:14,337 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:29:23,652 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:29:23,652 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:29:23,652 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:29:26,250 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:29:26,250 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:29:26,250 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:29:30,810 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:29:30,810 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:29:32,845 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:29:32,845 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:29:32,845 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:29:38,217 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:29:38,217 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:29:45,614 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:29:45,614 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:29:45,614 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:29:46,037 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:29:46,037 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:29:46,037 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:29:53,145 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:29:53,145 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:29:55,805 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:29:55,805 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:29:55,805 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:29:58,858 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:29:58,858 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:29:58,858 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:30:02,371 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:30:02,371 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:30:02,371 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:30:03,820 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:30:03,820 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:30:03,820 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-10 00:30:58,355 - hot_news_bot.article_processor - INFO - Обработано 34 статей
+2024-10-10 00:30:58,355 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:30:58,812 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 181 минут
+2024-10-10 00:31:59,302 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:31:59,663 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:32:01,000 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:32:01,000 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:32:04,147 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:32:04,147 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:32:06,409 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:32:06,410 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:32:06,410 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:32:08,065 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:32:08,067 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:32:11,610 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:32:11,610 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:32:11,610 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:32:15,599 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:32:15,600 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:32:23,719 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:32:23,719 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:32:23,719 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:32:25,727 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:32:25,727 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:32:25,727 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:32:30,045 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:32:30,045 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:32:33,436 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:32:33,436 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:32:33,436 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:32:41,462 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:32:41,462 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:32:48,789 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:32:48,789 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:32:48,789 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:32:49,276 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:32:49,276 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:32:49,276 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:32:54,479 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:32:54,479 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:32:56,268 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:32:56,268 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:32:56,268 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:32:59,466 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:32:59,466 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:32:59,466 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:33:04,484 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:33:04,484 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:33:04,484 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:33:06,063 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:33:06,063 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:33:06,063 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-10 00:33:11,340 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:34:07,824 - hot_news_bot.article_processor - INFO - Обработано 34 статей
+2024-10-10 00:34:07,824 - hot_news_bot.bot - INFO - Отобрано 1 интересных статей
+2024-10-10 00:34:09,906 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Светит помолвочным кольцом и смеется над возрастом любимого: невеста Лепса снимает ролики об их отношениях
+2024-10-10 00:34:09,924 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1180, views=0, forwards=0, reactions=0
+2024-10-10 00:34:09,929 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Светит помолвочным кольцом и смеется над возрастом любимого: невеста Лепса снимает ролики об их отношениях
+2024-10-10 00:34:09,932 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Светит помолвочным кольцом и смеется над возрастом любимого: невеста Лепса снимает ролики об их отношениях
+2024-10-10 00:34:09,932 - hot_news_bot.bot - INFO - Статья опубликована: Светит помолвочным кольцом и смеется над возрастом любимого: невеста Лепса снимает ролики об их отношениях
+2024-10-10 00:34:10,372 - hot_news_bot.bot - INFO - Цикл обработки завершен. Опубликовано 1 статей.
+2024-10-10 00:35:10,817 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:35:11,324 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:35:13,096 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:35:13,096 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:35:16,245 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:35:16,245 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:35:21,743 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:35:21,743 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:35:21,743 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:35:23,386 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:35:23,386 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:35:26,914 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:35:26,914 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:35:26,914 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:35:30,577 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:35:30,577 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:35:34,991 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:35:34,991 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:35:34,991 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:35:37,420 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:35:37,420 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:35:37,420 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:35:40,883 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:35:40,883 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:35:42,650 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:35:42,650 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:35:42,650 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:35:46,622 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:35:46,622 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:35:52,803 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:35:52,803 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:35:52,803 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:35:53,208 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:35:53,208 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:35:53,208 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:35:56,165 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:35:56,165 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:35:57,743 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:35:57,743 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:35:57,743 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:36:00,863 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:36:00,863 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:36:00,863 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:36:04,464 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:36:04,464 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:36:04,464 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:36:05,857 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:36:05,857 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:36:05,857 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:36:22,339 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:37:03,479 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:37:03,479 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:37:03,897 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 211 минут
+2024-10-10 00:38:04,315 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:38:06,404 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:38:07,686 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:38:07,686 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:38:10,677 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:38:10,677 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:38:12,815 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:38:12,815 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:38:12,815 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:38:14,478 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:38:14,478 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:38:17,441 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:38:17,441 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:38:17,441 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:38:21,347 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:38:21,347 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:38:26,139 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:38:26,139 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:38:26,139 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:38:28,282 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:38:28,282 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:38:28,282 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:38:31,729 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:38:31,729 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:38:33,758 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:38:33,758 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:38:33,758 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:38:40,778 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:38:40,778 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:38:48,311 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:38:48,311 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:38:48,311 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:38:48,703 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:38:48,709 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:38:48,709 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:38:53,374 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:38:53,374 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:38:54,810 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:38:54,810 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:38:54,810 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:38:58,303 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:38:58,307 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:38:58,307 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:39:02,840 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:39:02,840 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:39:02,851 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:39:04,463 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:39:04,463 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:39:04,463 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:39:57,542 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:39:57,542 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:39:58,052 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 241 минут
+2024-10-10 00:40:58,501 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:40:58,894 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:41:00,562 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:41:00,562 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:41:04,590 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:41:04,597 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:41:06,871 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:41:06,871 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:41:06,871 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:41:08,488 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:41:08,488 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:41:11,464 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:41:11,464 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:41:11,464 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:41:15,040 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:41:15,040 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:41:23,614 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:41:23,614 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:41:23,614 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:41:26,258 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:41:26,258 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:41:26,258 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:41:30,500 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:41:30,500 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:41:32,418 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:41:32,418 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:41:32,418 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:41:40,417 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:41:40,419 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:41:46,882 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:41:46,882 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:41:46,882 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:41:47,316 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:41:47,316 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:41:47,316 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:41:51,507 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:41:51,507 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:41:53,548 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:41:53,548 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:41:53,548 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:41:56,864 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:41:56,864 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:41:56,864 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:42:00,537 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:42:00,537 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:42:00,537 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:42:01,903 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:42:01,903 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:42:01,903 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:42:54,667 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:42:54,667 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:42:55,123 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 271 минут
+2024-10-10 00:43:55,589 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:43:56,092 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:43:57,458 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:43:57,458 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:44:01,056 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:44:01,056 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:44:03,400 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:44:03,400 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:44:03,400 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:44:05,071 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:44:05,071 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:44:08,051 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:44:08,051 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:44:08,051 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:44:11,840 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:44:11,840 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:44:18,514 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:44:18,514 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:44:18,514 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:44:21,168 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:44:21,168 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:44:21,168 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:44:24,886 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:44:24,886 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:44:27,482 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:44:27,482 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:44:27,482 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:44:31,772 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:44:31,772 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:44:39,317 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:44:39,317 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:44:39,317 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:44:40,711 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:44:40,711 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:44:40,711 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:44:45,258 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:44:45,258 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:44:46,786 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:44:46,786 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:44:46,786 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:44:50,022 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:44:50,022 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:44:50,022 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:44:54,776 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:44:54,776 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:44:54,776 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:44:56,451 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:44:56,451 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:44:56,451 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:45:50,500 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:45:59,506 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:45:59,507 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:46:00,986 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 301 минут
+2024-10-10 00:47:01,401 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:47:01,788 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:47:03,526 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:47:03,526 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:47:07,337 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:47:07,337 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:47:09,526 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:47:09,526 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:47:09,526 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:47:11,154 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:47:11,154 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:47:14,755 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:47:14,755 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:47:14,755 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:47:18,423 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:47:18,423 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:47:25,930 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:47:25,930 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:47:25,930 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:47:28,505 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:47:28,506 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:47:28,506 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:47:32,189 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:47:32,189 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:47:33,962 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:47:33,963 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:47:33,963 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:47:37,640 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:47:37,640 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:47:43,982 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:47:43,982 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:47:43,982 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:47:44,426 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:47:44,426 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:47:44,426 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:47:47,705 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:47:47,706 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:47:49,379 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:47:49,380 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:47:49,380 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:47:52,629 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:47:52,629 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:47:52,629 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:47:57,275 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:47:57,275 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:47:57,275 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:47:59,587 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:47:59,587 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:47:59,587 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:48:55,068 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:48:55,068 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:48:55,502 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 331 минут
+2024-10-10 00:49:55,921 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:49:56,330 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:49:58,121 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:49:58,121 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:50:01,862 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:50:01,862 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:50:04,374 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:50:04,374 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:50:04,374 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:50:06,105 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:50:06,105 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:50:09,910 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:50:09,910 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:50:09,910 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:50:14,024 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:50:14,024 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:50:20,285 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:50:20,286 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:50:20,286 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:50:22,466 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:50:22,466 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:50:22,466 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:50:25,585 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:50:25,585 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:50:27,503 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:50:27,503 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:50:27,503 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:50:33,477 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:50:33,477 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:50:41,806 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:50:41,807 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:50:41,807 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:50:42,251 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:50:42,251 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:50:42,253 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:50:48,437 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:50:48,437 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:50:50,079 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:50:50,079 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:50:50,079 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:50:53,791 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:50:53,791 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:50:53,791 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:50:58,331 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:50:58,331 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:50:58,331 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:51:00,036 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:51:00,036 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:51:00,036 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:51:32,411 - hot_news_bot.bot - INFO - Получен сигнал завершения. Останавливаем бота...
+2024-10-10 00:51:32,820 - hot_news_bot.bot - INFO - Останавливаем бота...
+2024-10-10 00:51:33,261 - hot_news_bot.bot - INFO - Бот остановлен.
+2024-10-10 00:51:33,622 - hot_news_bot.bot - INFO - Останавливаем бота...
+2024-10-10 00:51:34,012 - hot_news_bot.bot - INFO - Бот остановлен.
+2024-10-10 00:52:04,045 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-10 00:52:04,047 - hot_news_bot.bot - INFO - Бот запускается...
+2024-10-10 00:52:05,496 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-10 00:52:05,502 - hot_news_bot.database - INFO - Таблица событий инициализирована
+2024-10-10 00:52:06,323 - hot_news_bot.telegram_handlers - INFO - Начало регистрации обработчиков команд
+2024-10-10 00:52:06,324 - hot_news_bot.telegram_handlers - INFO - Регистрация обработчиков команд завершена
+2024-10-10 00:52:06,326 - hot_news_bot.bot - INFO - Бот успешно запущен и готов к работе!
+2024-10-10 00:53:06,714 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:53:07,132 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:53:08,808 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:53:08,808 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:53:12,727 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:53:12,727 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:53:15,355 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:53:15,355 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:53:15,356 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:53:17,114 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:53:17,114 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:53:21,034 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:53:21,034 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:53:21,034 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:53:24,535 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:53:24,535 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:53:28,908 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:53:28,908 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:53:28,908 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:53:31,341 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:53:31,341 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:53:31,341 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:53:35,024 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:53:35,024 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:53:36,698 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:53:36,698 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:53:36,698 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:53:39,669 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:53:39,669 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:53:45,826 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:53:45,826 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:53:45,826 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:53:46,228 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:53:46,228 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:53:46,229 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:53:49,378 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:53:49,378 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:53:51,862 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:53:51,862 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:53:51,862 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:53:55,424 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:53:55,424 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:53:55,424 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:53:59,075 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:53:59,075 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:53:59,075 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:54:00,461 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:54:00,461 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:54:00,461 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:54:55,832 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:54:55,833 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:54:56,235 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 31 минут
+2024-10-10 00:55:56,682 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 00:55:57,108 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:55:58,489 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:55:58,489 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:56:01,575 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:56:01,576 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:56:03,830 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:56:03,830 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:56:03,830 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:56:05,466 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:56:05,466 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:56:08,032 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 00:56:08,032 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:56:08,032 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:56:11,604 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 00:56:11,604 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 00:56:17,797 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 00:56:17,797 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 00:56:17,797 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:56:19,887 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 00:56:19,887 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 00:56:19,887 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:56:23,104 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 00:56:23,104 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:56:25,757 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 00:56:25,757 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 00:56:25,757 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 00:56:31,240 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 00:56:31,241 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:56:38,106 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 00:56:38,106 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 00:56:38,106 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:56:38,535 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:56:38,535 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 00:56:38,535 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:56:43,843 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 00:56:43,843 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 00:56:45,345 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 00:56:45,345 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 00:56:45,345 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 00:56:50,599 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 00:56:50,599 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 00:56:50,599 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 00:57:15,683 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 00:57:15,683 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 00:57:15,683 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 00:57:18,134 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 00:57:18,134 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 00:57:18,134 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 00:57:23,163 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:57:48,849 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:57:58,460 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: The read operation timed out
+2024-10-10 00:58:14,113 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:58:28,511 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:58:37,316 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: The read operation timed out
+2024-10-10 00:58:49,571 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 00:59:22,620 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 00:59:22,620 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 00:59:22,983 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 61 минут
+2024-10-10 00:59:35,446 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:59:38,013 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 00:59:38,013 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 00:59:44,978 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 00:59:44,978 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 00:59:47,624 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 00:59:47,625 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 00:59:47,625 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 00:59:49,462 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 00:59:49,462 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:59:56,234 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 00:59:56,234 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 00:59:56,234 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 01:00:08,322 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 01:00:08,323 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 01:00:17,154 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 01:00:17,154 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 01:00:17,154 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 01:00:20,642 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 01:00:20,642 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 01:00:20,642 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 01:00:23,375 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:00:25,939 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 01:00:25,939 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 01:00:28,554 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 01:00:28,554 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 01:00:28,554 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 01:00:34,392 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 01:00:34,393 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 01:00:41,744 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 01:00:41,744 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 01:00:41,744 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 01:00:42,317 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 01:00:42,318 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 01:00:42,318 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 01:00:46,769 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 01:00:46,770 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 01:00:51,507 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 01:00:51,507 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 01:00:51,507 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 01:00:55,172 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 01:00:55,173 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 01:00:55,173 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 01:00:58,690 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 01:00:58,690 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 01:00:58,690 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 01:00:59,979 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 01:00:59,979 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 01:00:59,979 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 01:01:23,831 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:01:52,900 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 01:02:24,232 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:03:25,393 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:04:25,811 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:05:26,212 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 01:05:26,593 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 01:05:28,224 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 01:05:28,225 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 01:05:31,499 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 01:05:31,499 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 01:05:33,677 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 01:05:33,677 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 01:05:33,677 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 01:05:35,265 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 01:05:35,265 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 01:05:39,824 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 01:05:39,824 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 01:05:39,824 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 01:05:43,556 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 01:05:43,557 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 01:05:52,207 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 01:05:52,207 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 01:05:52,207 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 01:05:54,463 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 01:05:54,463 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 01:05:54,464 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 01:05:57,990 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 01:05:57,990 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 01:05:59,858 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 01:05:59,858 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 01:05:59,858 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 01:06:02,939 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 01:06:02,939 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 01:06:09,804 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 01:06:09,804 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 01:06:09,805 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 01:06:10,238 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 01:06:10,239 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 01:06:10,239 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 01:06:13,548 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 01:06:13,548 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 01:06:15,337 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 01:06:15,337 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 01:06:15,337 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 01:06:18,640 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 01:06:18,640 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 01:06:18,642 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 01:06:23,325 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 01:06:23,325 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 01:06:23,325 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 01:06:24,929 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 01:06:24,929 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 01:06:24,929 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 01:07:16,896 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 01:07:16,896 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 01:07:17,289 - hot_news_bot.bot - INFO - Задержка публикации увеличена. Новая задержка: 91 минут
+2024-10-10 01:08:17,718 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:09:18,154 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:10:00,077 - hot_news_bot.events - ERROR - Ошибка при получении событий с https://www.imdb.com/calendar/: 403 Client Error: Forbidden for url: https://www.imdb.com/calendar/
+2024-10-10 01:10:18,640 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-10 01:11:19,105 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-10 01:11:19,490 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 01:11:21,237 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-10 01:11:21,237 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-10 01:11:24,793 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-10 01:11:24,793 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-10 01:11:27,170 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-10 01:11:27,170 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-10 01:11:27,171 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-10 01:11:29,466 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-10 01:11:29,467 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 01:11:33,999 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-10 01:11:34,000 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-10 01:11:34,001 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 01:11:38,112 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-10 01:11:38,113 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-10 01:11:43,391 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-10 01:11:43,391 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-10 01:11:43,391 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 01:11:46,968 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-10 01:11:46,968 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-10 01:11:46,970 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 01:11:51,852 - hot_news_bot.rss_parser - INFO - Получено 6 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-10 01:11:51,853 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 01:11:54,825 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-10 01:11:54,825 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-10 01:11:54,826 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-10 01:11:59,626 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-10 01:11:59,627 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 01:12:07,488 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-10 01:12:07,489 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-10 01:12:07,489 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-10 01:12:08,196 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-10 01:12:08,197 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-10 01:12:08,198 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-10 01:12:12,392 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-10 01:12:12,394 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-10 01:12:14,926 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-10 01:12:14,928 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-10 01:12:14,928 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-10 01:12:19,025 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-10 01:12:19,028 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-10 01:12:19,028 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-10 01:12:24,322 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-10 01:12:24,323 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-10 01:12:24,323 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-10 01:12:26,625 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-10 01:12:26,625 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-10 01:12:26,626 - hot_news_bot.rss_parser - INFO - Всего получено 33 статей
+2024-10-10 01:12:43,577 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: _ssl.c:983: The handshake operation timed out
+2024-10-10 04:12:40,572 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2024-10-10 04:12:41,377 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,423 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,429 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,437 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,444 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,452 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,464 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,478 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,503 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,555 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,566 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,603 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,610 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,617 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,624 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,648 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,663 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,726 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,733 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,740 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,746 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,753 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,760 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,787 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,793 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,799 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,804 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,813 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,862 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,873 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,882 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,889 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,936 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:41,944 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,009 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,034 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,040 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,047 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,062 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,108 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,115 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,123 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,128 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,145 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,167 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,199 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,260 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,268 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,274 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,282 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,288 - hot_news_bot.article_processor - ERROR - Ошибка при переводе текста: [Errno 11001] getaddrinfo failed
+2024-10-10 04:12:42,290 - hot_news_bot.article_processor - INFO - Обработано 33 статей
+2024-10-10 04:12:42,290 - hot_news_bot.bot - INFO - Нет достаточно интересных статей для публикации. Увеличение задержки.
+2024-10-10 04:12:42,341 - hot_news_bot.bot - INFO - Останавливаем бота...
+2024-10-10 04:12:42,371 - root - ERROR - Произошла непредвиденная ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7367323849:AAFKdAeBlSFLO3tEgE4sHVTztoBDLuP1-ZM/sendMessage?chat_id=233829403&text=LOG%3A+%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D0%B2%D0%BB%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC+%D0%B1%D0%BE%D1%82%D0%B0... (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E0E6038740>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2024-10-10 04:12:42,372 - root - ERROR - Полный стек вызовов:
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002E0E6038530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7367323849:AAFKdAeBlSFLO3tEgE4sHVTztoBDLuP1-ZM/sendMessage?chat_id=233829403&text=LOG%3A+%D0%9D%D0%B5%D1%82+%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BE%D1%87%D0%BD%D0%BE+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D1%85+%D1%81%D1%82%D0%B0%D1%82%D0%B5%D0%B9+%D0%B4%D0%BB%D1%8F+%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8.+%D0%A3%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B7%D0%B0%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8. (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E0E6038530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 99, in run
+    schedule.run_pending()
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\schedule\__init__.py", line 780, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\schedule\__init__.py", line 100, in run_pending
+    self._run_job(job)
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\schedule\__init__.py", line 172, in _run_job
+    ret = job.run()
+          ^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\schedule\__init__.py", line 661, in run
+    ret = self.job_func()
+          ^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 117, in run_scheduled_job
+    self.process_and_publish()
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 138, in process_and_publish
+    self.send_log("Нет достаточно интересных статей для публикации. Увеличение задержки.")
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 33, in send_log
+    self.bot.send_message(self.admin_chat_id, f"LOG: {message}")
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\telebot\__init__.py", line 1775, in send_message
+    apihelper.send_message(
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\telebot\apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7367323849:AAFKdAeBlSFLO3tEgE4sHVTztoBDLuP1-ZM/sendMessage?chat_id=233829403&text=LOG%3A+%D0%9D%D0%B5%D1%82+%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BE%D1%87%D0%BD%D0%BE+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D1%85+%D1%81%D1%82%D0%B0%D1%82%D0%B5%D0%B9+%D0%B4%D0%BB%D1%8F+%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8.+%D0%A3%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B7%D0%B0%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8. (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E0E6038530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002E0E6038740>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7367323849:AAFKdAeBlSFLO3tEgE4sHVTztoBDLuP1-ZM/sendMessage?chat_id=233829403&text=LOG%3A+%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D0%B2%D0%BB%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC+%D0%B1%D0%BE%D1%82%D0%B0... (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E0E6038740>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Programming\hot_news_bot\main.py", line 29, in main
+    newsbot.run()
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 104, in run
+    self.stop()
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 107, in stop
+    self.send_log("Останавливаем бота...")
+  File "C:\Programming\hot_news_bot\hot_news_bot\bot.py", line 33, in send_log
+    self.bot.send_message(self.admin_chat_id, f"LOG: {message}")
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\telebot\__init__.py", line 1775, in send_message
+    apihelper.send_message(
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\telebot\apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Programming\hot_news_bot\venv\Lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7367323849:AAFKdAeBlSFLO3tEgE4sHVTztoBDLuP1-ZM/sendMessage?chat_id=233829403&text=LOG%3A+%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D0%B2%D0%BB%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC+%D0%B1%D0%BE%D1%82%D0%B0... (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E0E6038740>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2024-10-10 04:12:42,500 - hot_news_bot.bot - INFO - Останавливаем бота...
+2024-10-11 14:07:52,156 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-11 14:07:52,158 - hot_news_bot.bot - INFO - Бот запускается...
+2024-10-11 14:07:53,405 - hot_news_bot.database - INFO - База данных успешно инициализирована
+2024-10-11 14:07:53,413 - hot_news_bot.database - INFO - Таблица событий инициализирована
+2024-10-11 14:07:54,136 - hot_news_bot.telegram_handlers - INFO - Начало регистрации обработчиков команд
+2024-10-11 14:07:54,136 - hot_news_bot.telegram_handlers - INFO - Регистрация обработчиков команд завершена
+2024-10-11 14:07:54,137 - hot_news_bot.bot - INFO - Бот успешно запущен и готов к работе!
+2024-10-11 14:08:54,466 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:09:54,824 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:10:55,234 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:11:55,710 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:12:56,128 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:13:56,490 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:14:56,848 - hot_news_bot.bot - INFO - Начало цикла обработки и публикации
+2024-10-11 14:14:57,164 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-11 14:14:59,081 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-11 14:14:59,081 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-11 14:15:02,218 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.starhit.ru/rss/
+2024-10-11 14:15:02,218 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-11 14:15:07,548 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-11 14:15:07,548 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-11 14:15:07,548 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-11 14:15:10,094 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-11 14:15:10,095 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-11 14:15:14,454 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-11 14:15:14,454 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-11 14:15:14,454 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-11 14:15:19,020 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-11 14:15:19,020 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-11 14:15:22,501 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-11 14:15:22,501 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-11 14:15:22,501 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-11 14:15:24,525 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-11 14:15:24,526 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-11 14:15:24,526 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-11 14:15:27,400 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-11 14:15:27,400 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-11 14:15:29,950 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-11 14:15:29,950 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-11 14:15:29,951 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-11 14:15:31,966 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://peopletalk.ru/feed/
+2024-10-11 14:15:31,966 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-11 14:15:37,887 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-11 14:15:37,887 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-11 14:15:37,887 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-11 14:15:39,420 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-11 14:15:39,420 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-11 14:15:39,420 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-11 14:15:42,940 - hot_news_bot.rss_parser - INFO - Получено 10 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-11 14:15:42,940 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-11 14:15:45,043 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-11 14:15:45,043 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-11 14:15:45,043 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-11 14:15:47,953 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-11 14:15:47,953 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-11 14:15:47,953 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-11 14:15:53,355 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-11 14:15:53,355 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-11 14:15:53,355 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-11 14:15:55,770 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-11 14:15:55,770 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-11 14:15:55,770 - hot_news_bot.rss_parser - INFO - Всего получено 50 статей
+2024-10-11 14:16:56,305 - hot_news_bot.article_processor - INFO - Обработано 50 статей
+2024-10-11 14:16:56,306 - hot_news_bot.bot - INFO - Отобрано 18 интересных статей
+2024-10-11 14:16:57,035 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Раскрыта самая тяжелая часть тюремной жизни рэпера P.Diddy
+2024-10-11 14:16:57,047 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1186, views=0, forwards=0, reactions=0
+2024-10-11 14:16:57,055 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Раскрыта самая тяжелая часть тюремной жизни рэпера P.Diddy
+2024-10-11 14:16:57,061 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Раскрыта самая тяжелая часть тюремной жизни рэпера P.Diddy
+2024-10-11 14:16:57,062 - hot_news_bot.bot - INFO - Статья опубликована: Раскрыта самая тяжелая часть тюремной жизни рэпера P.Diddy
+2024-10-11 14:16:57,374 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:19:58,304 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Певица Слава возмутилась отменой концертов в Дагестане
+2024-10-11 14:19:58,312 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1187, views=0, forwards=0, reactions=0
+2024-10-11 14:19:58,319 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Певица Слава возмутилась отменой концертов в Дагестане
+2024-10-11 14:19:58,325 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Певица Слава возмутилась отменой концертов в Дагестане
+2024-10-11 14:19:58,325 - hot_news_bot.bot - INFO - Статья опубликована: Певица Слава возмутилась отменой концертов в Дагестане
+2024-10-11 14:19:59,044 - hot_news_bot.publisher - INFO - Статья успешно опубликована: «На сегодняшний день является королем эстрады»: сколько зарабатывает Филипп Киркоров после скандалов
+2024-10-11 14:19:59,050 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1188, views=0, forwards=0, reactions=0
+2024-10-11 14:19:59,056 - hot_news_bot.database - INFO - Статья добавлена в базу данных: «На сегодняшний день является королем эстрады»: сколько зарабатывает Филипп Киркоров после скандалов
+2024-10-11 14:19:59,062 - hot_news_bot.database - INFO - Статья добавлена в базу данных: «На сегодняшний день является королем эстрады»: сколько зарабатывает Филипп Киркоров после скандалов
+2024-10-11 14:19:59,063 - hot_news_bot.bot - INFO - Статья опубликована: «На сегодняшний день является королем эстрады»: сколько зарабатывает Филипп Киркоров после скандалов
+2024-10-11 14:19:59,370 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:22:59,577 - hot_news_bot.publisher - INFO - Статья успешно опубликована: T. I. признался, что больше не хочет выступать
+2024-10-11 14:22:59,584 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1189, views=0, forwards=0, reactions=0
+2024-10-11 14:22:59,591 - hot_news_bot.database - INFO - Статья добавлена в базу данных: T. I. признался, что больше не хочет выступать
+2024-10-11 14:22:59,597 - hot_news_bot.database - INFO - Статья добавлена в базу данных: T. I. признался, что больше не хочет выступать
+2024-10-11 14:22:59,597 - hot_news_bot.bot - INFO - Статья опубликована: T. I. признался, что больше не хочет выступать
+2024-10-11 14:23:00,372 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Спевший с P.Diddy Тимати впервые отреагировал на обвинения против рэпера
+2024-10-11 14:23:00,384 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1190, views=0, forwards=0, reactions=0
+2024-10-11 14:23:00,392 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Спевший с P.Diddy Тимати впервые отреагировал на обвинения против рэпера
+2024-10-11 14:23:00,399 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Спевший с P.Diddy Тимати впервые отреагировал на обвинения против рэпера
+2024-10-11 14:23:00,399 - hot_news_bot.bot - INFO - Статья опубликована: Спевший с P.Diddy Тимати впервые отреагировал на обвинения против рэпера
+2024-10-11 14:23:00,719 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:26:00,670 - hot_news_bot.publisher - INFO - Статья успешно опубликована: 18-летняя дочь P.Diddy впервые отреагировала на проклятия, которые получает из-за скандала вокруг отца
+2024-10-11 14:26:00,678 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1191, views=0, forwards=0, reactions=0
+2024-10-11 14:26:00,685 - hot_news_bot.database - INFO - Статья добавлена в базу данных: 18-летняя дочь P.Diddy впервые отреагировала на проклятия, которые получает из-за скандала вокруг отца
+2024-10-11 14:26:00,693 - hot_news_bot.database - INFO - Статья добавлена в базу данных: 18-летняя дочь P.Diddy впервые отреагировала на проклятия, которые получает из-за скандала вокруг отца
+2024-10-11 14:26:00,693 - hot_news_bot.bot - INFO - Статья опубликована: 18-летняя дочь P.Diddy впервые отреагировала на проклятия, которые получает из-за скандала вокруг отца
+2024-10-11 14:26:01,402 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Заставлял жену делать аборты, потерял родителей и прослыл ловеласом. Личная жизнь Игоря Верника
+2024-10-11 14:26:01,410 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1192, views=0, forwards=0, reactions=0
+2024-10-11 14:26:01,418 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Заставлял жену делать аборты, потерял родителей и прослыл ловеласом. Личная жизнь Игоря Верника
+2024-10-11 14:26:01,424 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Заставлял жену делать аборты, потерял родителей и прослыл ловеласом. Личная жизнь Игоря Верника
+2024-10-11 14:26:01,424 - hot_news_bot.bot - INFO - Статья опубликована: Заставлял жену делать аборты, потерял родителей и прослыл ловеласом. Личная жизнь Игоря Верника
+2024-10-11 14:26:01,725 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:29:01,768 - hot_news_bot.publisher - INFO - Статья успешно опубликована: «Охота только началась!»: признание режиссера Житинкина на фоне слухов о расставании Бондарчук и Андреевой
+2024-10-11 14:29:01,775 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1193, views=0, forwards=0, reactions=0
+2024-10-11 14:29:01,781 - hot_news_bot.database - INFO - Статья добавлена в базу данных: «Охота только началась!»: признание режиссера Житинкина на фоне слухов о расставании Бондарчук и Андреевой
+2024-10-11 14:29:01,788 - hot_news_bot.database - INFO - Статья добавлена в базу данных: «Охота только началась!»: признание режиссера Житинкина на фоне слухов о расставании Бондарчук и Андреевой
+2024-10-11 14:29:01,788 - hot_news_bot.bot - INFO - Статья опубликована: «Охота только началась!»: признание режиссера Житинкина на фоне слухов о расставании Бондарчук и Андреевой
+2024-10-11 14:29:02,549 - hot_news_bot.publisher - INFO - Статья успешно опубликована: И это не Алессандра Амбросио: бывший Бони Алекс Смерфит показывает идиллию с новой девушкой
+2024-10-11 14:29:02,557 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1194, views=0, forwards=0, reactions=0
+2024-10-11 14:29:02,565 - hot_news_bot.database - INFO - Статья добавлена в базу данных: И это не Алессандра Амбросио: бывший Бони Алекс Смерфит показывает идиллию с новой девушкой
+2024-10-11 14:29:02,573 - hot_news_bot.database - INFO - Статья добавлена в базу данных: И это не Алессандра Амбросио: бывший Бони Алекс Смерфит показывает идиллию с новой девушкой
+2024-10-11 14:29:02,574 - hot_news_bot.bot - INFO - Статья опубликована: И это не Алессандра Амбросио: бывший Бони Алекс Смерфит показывает идиллию с новой девушкой
+2024-10-11 14:29:02,896 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:32:03,893 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Шоуа о Талышинской: «Все любят выпить, но Викуля заводная. Когда мы останавливаемся, она хочет еще»
+2024-10-11 14:32:03,897 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1195, views=0, forwards=0, reactions=0
+2024-10-11 14:32:03,903 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Шоуа о Талышинской: «Все любят выпить, но Викуля заводная. Когда мы останавливаемся, она хочет еще»
+2024-10-11 14:32:03,908 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Шоуа о Талышинской: «Все любят выпить, но Викуля заводная. Когда мы останавливаемся, она хочет еще»
+2024-10-11 14:32:03,908 - hot_news_bot.bot - INFO - Статья опубликована: Шоуа о Талышинской: «Все любят выпить, но Викуля заводная. Когда мы останавливаемся, она хочет еще»
+2024-10-11 14:32:04,711 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Слушает молитвы в церкви, примеряет люксовые вещи: Муцениеце отвлекается от склок с Прилучным в Испании
+2024-10-11 14:32:04,719 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1196, views=0, forwards=0, reactions=0
+2024-10-11 14:32:04,719 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Слушает молитвы в церкви, примеряет люксовые вещи: Муцениеце отвлекается от склок с Прилучным в Испании
+2024-10-11 14:32:04,733 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Слушает молитвы в церкви, примеряет люксовые вещи: Муцениеце отвлекается от склок с Прилучным в Испании
+2024-10-11 14:32:04,733 - hot_news_bot.bot - INFO - Статья опубликована: Слушает молитвы в церкви, примеряет люксовые вещи: Муцениеце отвлекается от склок с Прилучным в Испании
+2024-10-11 14:32:05,079 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:35:04,976 - hot_news_bot.publisher - INFO - Статья успешно опубликована: "Твой сын — насильник". Мать и детей Пи Дидди освистали при выходе из суда
+2024-10-11 14:35:04,976 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1197, views=0, forwards=0, reactions=0
+2024-10-11 14:35:04,991 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Твой сын — насильник". Мать и детей Пи Дидди освистали при выходе из суда
+2024-10-11 14:35:04,991 - hot_news_bot.database - INFO - Статья добавлена в базу данных: "Твой сын — насильник". Мать и детей Пи Дидди освистали при выходе из суда
+2024-10-11 14:35:04,991 - hot_news_bot.bot - INFO - Статья опубликована: "Твой сын — насильник". Мать и детей Пи Дидди освистали при выходе из суда
+2024-10-11 14:35:05,786 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Аарон Тейлор-Джонсон признан самым красивым мужчиной в мире: кто ещё вошёл в рейтинг
+2024-10-11 14:35:05,792 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1198, views=0, forwards=0, reactions=0
+2024-10-11 14:35:05,792 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Аарон Тейлор-Джонсон признан самым красивым мужчиной в мире: кто ещё вошёл в рейтинг
+2024-10-11 14:35:05,808 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Аарон Тейлор-Джонсон признан самым красивым мужчиной в мире: кто ещё вошёл в рейтинг
+2024-10-11 14:35:05,808 - hot_news_bot.bot - INFO - Статья опубликована: Аарон Тейлор-Джонсон признан самым красивым мужчиной в мире: кто ещё вошёл в рейтинг
+2024-10-11 14:35:06,207 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:38:06,152 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Суд снял арест со счетов Елены Блиновской, чтобы она смогла оплатить часть долга
+2024-10-11 14:38:06,168 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1199, views=0, forwards=0, reactions=0
+2024-10-11 14:38:06,173 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Суд снял арест со счетов Елены Блиновской, чтобы она смогла оплатить часть долга
+2024-10-11 14:38:06,180 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Суд снял арест со счетов Елены Блиновской, чтобы она смогла оплатить часть долга
+2024-10-11 14:38:06,180 - hot_news_bot.bot - INFO - Статья опубликована: Суд снял арест со счетов Елены Блиновской, чтобы она смогла оплатить часть долга
+2024-10-11 14:38:06,974 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Тимати резко отреагировал на скандал с Пи Дидди. Они были друзьями
+2024-10-11 14:38:06,983 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1200, views=0, forwards=0, reactions=0
+2024-10-11 14:38:06,983 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Тимати резко отреагировал на скандал с Пи Дидди. Они были друзьями
+2024-10-11 14:38:06,983 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Тимати резко отреагировал на скандал с Пи Дидди. Они были друзьями
+2024-10-11 14:38:06,983 - hot_news_bot.bot - INFO - Статья опубликована: Тимати резко отреагировал на скандал с Пи Дидди. Они были друзьями
+2024-10-11 14:38:07,364 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:41:07,307 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Исследование: о какой работе мечтают зумеры
+2024-10-11 14:41:07,314 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1201, views=0, forwards=0, reactions=0
+2024-10-11 14:41:07,314 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Исследование: о какой работе мечтают зумеры
+2024-10-11 14:41:07,329 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Исследование: о какой работе мечтают зумеры
+2024-10-11 14:41:07,329 - hot_news_bot.bot - INFO - Статья опубликована: Исследование: о какой работе мечтают зумеры
+2024-10-11 14:41:08,125 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Айза-Лилуна Ай впервые показала лицо возлюбленного
+2024-10-11 14:41:08,128 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1202, views=0, forwards=0, reactions=0
+2024-10-11 14:41:08,134 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Айза-Лилуна Ай впервые показала лицо возлюбленного
+2024-10-11 14:41:08,142 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Айза-Лилуна Ай впервые показала лицо возлюбленного
+2024-10-11 14:41:08,142 - hot_news_bot.bot - INFO - Статья опубликована: Айза-Лилуна Ай впервые показала лицо возлюбленного
+2024-10-11 14:41:08,588 - hot_news_bot.bot - INFO - Ожидание 179 секунд до следующей публикации...
+2024-10-11 14:44:09,488 - hot_news_bot.publisher - INFO - Статья успешно опубликована: Семью P. Diddy затравили у здания суда: «Хищник заслуживает тюрьмы!»
+2024-10-11 14:44:09,498 - hot_news_bot.database - INFO - Статистика поста обновлена: message_id=1203, views=0, forwards=0, reactions=0
+2024-10-11 14:44:09,509 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Семью P. Diddy затравили у здания суда: «Хищник заслуживает тюрьмы!»
+2024-10-11 14:44:09,514 - hot_news_bot.database - INFO - Статья добавлена в базу данных: Семью P. Diddy затравили у здания суда: «Хищник заслуживает тюрьмы!»
+2024-10-11 14:44:09,514 - hot_news_bot.bot - INFO - Статья опубликована: Семью P. Diddy затравили у здания суда: «Хищник заслуживает тюрьмы!»
+2024-10-11 14:44:09,847 - hot_news_bot.bot - INFO - Цикл обработки завершен. Опубликовано 18 статей.
+2024-10-11 14:45:10,229 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:46:10,582 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:47:10,973 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:48:11,347 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:48:22,133 - hot_news_bot.rss_parser - INFO - Получение статей из https://news.rambler.ru/rss/starlife/
+2024-10-11 14:48:24,013 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://news.rambler.ru/rss/starlife/
+2024-10-11 14:48:24,013 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.starhit.ru/rss/
+2024-10-11 14:48:28,372 - hot_news_bot.rss_parser - INFO - Получено 5 новых статей из https://www.starhit.ru/rss/
+2024-10-11 14:48:28,374 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.womanhit.ru/rss/
+2024-10-11 14:48:31,946 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.womanhit.ru/rss/: <unknown>:7:148: not well-formed (invalid token)
+2024-10-11 14:48:31,947 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.womanhit.ru/rss/
+2024-10-11 14:48:31,947 - hot_news_bot.rss_parser - INFO - Получение статей из https://7days.ru/rss/feed/
+2024-10-11 14:48:34,481 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://7days.ru/rss/feed/
+2024-10-11 14:48:34,481 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-11 14:48:38,345 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.kp.ru/rss/showbusiness.xml: text/html; charset=utf-8 is not an XML media type
+2024-10-11 14:48:38,345 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.kp.ru/rss/showbusiness.xml
+2024-10-11 14:48:38,345 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-11 14:48:42,667 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.cosmo.ru/rss/cosmo.xml
+2024-10-11 14:48:42,667 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.glamour.ru/rss/
+2024-10-11 14:48:46,620 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.glamour.ru/rss/: <unknown>:759:9474: not well-formed (invalid token)
+2024-10-11 14:48:46,621 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.glamour.ru/rss/
+2024-10-11 14:48:46,621 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-11 14:48:48,386 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.buro247.ru/xml/rss-feed-main.xml: <unknown>:8607:3: not well-formed (invalid token)
+2024-10-11 14:48:48,386 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.buro247.ru/xml/rss-feed-main.xml
+2024-10-11 14:48:48,386 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-11 14:48:51,364 - hot_news_bot.rss_parser - INFO - Получено 7 новых статей из https://www.spletnik.ru/rss/all_news.rss
+2024-10-11 14:48:51,364 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.vokrug.tv/rss/news.xml
+2024-10-11 14:48:54,044 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.vokrug.tv/rss/news.xml: <unknown>:10:73: not well-formed (invalid token)
+2024-10-11 14:48:54,044 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.vokrug.tv/rss/news.xml
+2024-10-11 14:48:54,044 - hot_news_bot.rss_parser - INFO - Получение статей из https://peopletalk.ru/feed/
+2024-10-11 14:48:56,079 - hot_news_bot.rss_parser - INFO - Получено 8 новых статей из https://peopletalk.ru/feed/
+2024-10-11 14:48:56,079 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.yapokupayu.ru/rss-news
+2024-10-11 14:49:02,320 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.yapokupayu.ru/rss-news: <unknown>:7:2: mismatched tag
+2024-10-11 14:49:02,320 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.yapokupayu.ru/rss-news
+2024-10-11 14:49:02,320 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.love-radio.ru/news.xml
+2024-10-11 14:49:04,051 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.love-radio.ru/news.xml: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2024-10-11 14:49:04,051 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.love-radio.ru/news.xml
+2024-10-11 14:49:04,051 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.woman.ru/rss/news.rss
+2024-10-11 14:49:07,983 - hot_news_bot.rss_parser - INFO - Получено 9 новых статей из https://www.woman.ru/rss/news.rss
+2024-10-11 14:49:07,983 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.eg.ru/rss/all/
+2024-10-11 14:49:11,729 - hot_news_bot.bot - INFO - Текущее время не оптимально для публикации. Пропуск цикла.
+2024-10-11 14:49:12,703 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.eg.ru/rss/all/: <unknown>:58:18: not well-formed (invalid token)
+2024-10-11 14:49:12,703 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.eg.ru/rss/all/
+2024-10-11 14:49:12,703 - hot_news_bot.rss_parser - INFO - Получение статей из https://rustars.tv/rss/
+2024-10-11 14:49:15,752 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://rustars.tv/rss/: text/html;charset=UTF-8 is not an XML media type
+2024-10-11 14:49:15,753 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://rustars.tv/rss/
+2024-10-11 14:49:15,753 - hot_news_bot.rss_parser - INFO - Получение статей из https://www.wday.ru/rss/
+2024-10-11 14:49:20,719 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://www.wday.ru/rss/: <unknown>:116:11: mismatched tag
+2024-10-11 14:49:20,719 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://www.wday.ru/rss/
+2024-10-11 14:49:20,719 - hot_news_bot.rss_parser - INFO - Получение статей из https://versiya.info/feed/
+2024-10-11 14:49:23,095 - hot_news_bot.rss_parser - WARNING - Ошибка при парсинге https://versiya.info/feed/: <unknown>:23:58: not well-formed (invalid token)
+2024-10-11 14:49:23,095 - hot_news_bot.rss_parser - INFO - Получено 0 новых статей из https://versiya.info/feed/
+2024-10-11 14:49:23,095 - hot_news_bot.rss_parser - INFO - Всего получено 34 статей
+2024-10-11 14:50:04,192 - hot_news_bot.article_processor - INFO - Обработано 34 статей
